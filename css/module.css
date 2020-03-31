@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+#topLevel div {
+  background-color: grey;
+  width: 480px;
+  height: 125px;
+  float: right;
+  border: 1px solid black;
+  vertical-align: center;
+  text-align: center;
+  padding-top: 70px;
+}
+/* B */
+aside {
+  background-color: grey;
+  width: 480px;
+  height: 150px;
+  float: left;
+  border: 1px solid black;
+  vertical-align: center;
+  text-align: center;
+  padding-top: 70px;
+  margin: auto;
+}
+
+#secondLevel article {
+  background-color: grey;
+  width: 240px;
+  height: 250px;
+  float: left;
+  border: 1px solid black;
+  vertical-align: center;
+  text-align: center;
+  padding-top: 70px;
+}
+
+@media (min-width: 768px) {
+  #topLevel div {
+    background-color: pink;
+    width: 380px;
+    height: 200px;
+  }
+  /* B */
+  aside {
+    background-color: pink;
+    width: 200px;
+    height: 600px;
+  }
+
+  #secondLevel article {
+    background-color: pink;
+    width: 190px;
+    height: 250px;
+  }
+}
