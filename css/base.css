@@ -3,8 +3,13 @@
 }
 
 body {
-  background-color:white;
   width: 480px;
-  height: 767px;
+  margin: auto;
+}
+
+@media (min-width:768px) {
+    body {
+        width: 960px;
+      } 
 }
 
