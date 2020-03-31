@@ -14,6 +14,7 @@ header {
 
 }
 footer {
+    background-color: pink;
     border:1px solid black;
     text-align: center;
     float: left;
@@ -29,6 +30,7 @@ footer {
     
     }
     footer {
+        background-color: pink;
         width: 760px;
         height: 150px;
     
