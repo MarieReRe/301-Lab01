@@ -5,23 +5,27 @@
 header {
     background-color:grey;
     border:1px solid black;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 30px;
     float: left;
     width: 480px;
     height: 75px;
     top: 0;
     position: relative;
-    text-align: center;
     margin: auto;
 
 }
 footer {
     background-color:gray;
     border:1px solid black;
+    vertical-align: middle;
     text-align: center;
     float: left;
     width: 480px;
     height: 80px;
     bottom: 0;
+    padding-top: 70px;
     
 }
 @media (min-width: 768px){
