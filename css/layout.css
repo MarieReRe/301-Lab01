@@ -3,7 +3,6 @@
 }
 
 header {
-    background-color:grey;
     border:1px solid black;
     vertical-align: middle;
     text-align: center;
@@ -17,7 +16,6 @@ header {
 
 }
 footer {
-    background-color:gray;
     border:1px solid black;
     vertical-align: middle;
     text-align: center;
@@ -30,13 +28,11 @@ footer {
 }
 @media (min-width: 768px){
     header {
-        background-color: pink;
         width: 960px;
         height: 100px;
     
     }
     footer {
-        background-color: pink;
         width: 760px;
         height: 150px;
     }
