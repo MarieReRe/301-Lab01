@@ -1,8 +1,6 @@
 'use strict'
 
 
-
-
 $(document).ready(function () {
     let back = ["#ff0000", "blue", "#ffd700", "#00ff7f", "#ff6347"];
     let rand = back[Math.floor(Math.random() * back.length)];
