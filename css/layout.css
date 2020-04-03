@@ -1,40 +1,24 @@
 * {
     box-sizing: border-box;
 }
-
-header {
-    border:1px solid black;
-    vertical-align: middle;
-    text-align: center;
-    padding-top: 30px;
-    float: left;
+.container {
     width: 480px;
-    height: 75px;
-    top: 0;
-    position: relative;
-    margin: auto;
+    background-color: mediumblue;
+    display: grid;
+    grid-template-columns: 240px 240px;
+    grid-template-rows: 75px 150px 125px 125px 250px 250px 80px;
+}
+.item   {
+    background-color: mediumspringgreen;
+}
 
-}
-footer {
-    border:1px solid black;
-    vertical-align: middle;
-    text-align: center;
-    float: left;
-    width: 480px;
-    height: 80px;
-    bottom: 0;
-    padding-top: 70px;
-    
-}
 @media (min-width: 768px){
-    header {
-        width: 960px;
-        height: 100px;
-    
-    }
-    footer {
-        width: 760px;
-        height: 150px;
+    .container {
+        width: 480px;
+        background-color: mediumblue;
+        display: grid;
+        grid-template-columns: 200px 190px 190px 190px 190px 190px ;
+        grid-template-rows: 100px 200px 250px 150px;
     }
 
 }
